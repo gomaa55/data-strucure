@@ -1,0 +1,25 @@
+class Node{
+public;
+
+int data ;
+
+Node * Next ;
+}
+using namespacestd;
+int main() {
+
+Node * first=new Node();
+first->data=5 ;
+
+cout<<first->data<<endl ;
+
+Node * second=new Node() ;
+first->next=second ;
+
+
+second->data=66 ;
+
+cout<<first->next->data ;
+
+return 0;
+}
